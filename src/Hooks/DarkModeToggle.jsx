@@ -16,7 +16,7 @@ function DarkModeToggle() {
     return (
         <>
             <DarkModeSwitch
-                // className="text-text2"
+                className="duration-[0.3s]"
                 checked={darkSide}
                 onChange={toggleDarkMode}
                 size={25}
