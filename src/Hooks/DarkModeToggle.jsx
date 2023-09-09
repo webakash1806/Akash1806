@@ -16,10 +16,10 @@ function DarkModeToggle() {
     return (
         <>
             <DarkModeSwitch
-                style={{ marginBottom: "2rem" }}
+                className="m-2"
                 checked={darkSide}
                 onChange={toggleDarkMode}
-                size={30}
+                size={25}
             />
         </>
     );
