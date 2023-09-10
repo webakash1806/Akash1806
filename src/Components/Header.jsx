@@ -13,7 +13,7 @@ const Header = () => {
     }
 
     return (
-        <header className="bg-white z-20 fixed top-0 left-0 w-screen flex items-center justify-around dark:bg-darkBG dark:text-primaryText py-[0.55rem] shadow-md text-darkBG shadow-primaryText lg:py-4 ">
+        <header className="bg-white z-20 fixed top-0 left-0 w-screen flex items-center lg:justify-around justify-between px-6 md:px-[5rem] dark:bg-darkBG dark:text-primaryText py-[0.55rem] shadow-md text-darkBG shadow-primaryText lg:py-4 ">
             <div className="w-6 menuBar cursor-pointer lg:hidden  text-[23px] dark:hover:text-white" onClick={menuToggle}>
                 {isActive ? <FontAwesomeIcon icon={faBars} /> : <FontAwesomeIcon className="text-[27px]" icon={faXmark} />}
             </div>
