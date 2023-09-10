@@ -13,8 +13,8 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <main className="min-h-screen home border-2 h-fit flex md:flex-row flex-col-reverse lg:p-[11rem] md:p-[4rem] p-[0.7rem] lg:justify-between md:justify-between items-center dark:bg-darkBG ">
-                <div className="left flex flex-col items-left justify-center gap-1 dark:text-white md:w-7/12 lg:w-6/12">
+            <main className="h-[40rem] home border-2 flex md:flex-row flex-col-reverse lg:p-[11rem] md:p-[4rem] p-[0.7rem] lg:justify-between md:justify-between items-center dark:bg-darkBG ">
+                <div className="left flex flex-col items-left justify-center  dark:text-white md:w-7/12 lg:w-6/12">
                     <p className="text-[2.9rem] md:text-[3.5rem] font-bold">Hi! I am</p>
                     <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#AB35FD] to-[#DA18EE] text-[1.9rem] md:text-[2.2rem] font-bold"><Typewriter
                         words={['Akash Kumar Singh', 'Web Developer', 'Web Designer']}
