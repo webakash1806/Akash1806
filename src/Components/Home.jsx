@@ -3,6 +3,7 @@ import Button from "./Button"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons"
 import { Typewriter } from 'react-simple-typewriter'
+import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
@@ -21,11 +22,11 @@ const Home = () => {
                         delaySpeed={1200}
                     /></p>
                     <p className="text-[0.85rem] font-medium md:text-[1rem]">Highly motivated and passionate Frontend Web Developer seeking an opportunity to apply my skills in HTML, CSS, and JavaScript to develop engaging and user-friendly web applications.</p>
-                    <div className="group mt-5">
+                    <Link target="_blank" to="https://drive.google.com/file/d/1We8nadp5FPDkLgeGoN56BJ7nLE84GFQZ/view?usp=sharing" className="group mt-5">
                         <Button>
                             Download CV<FontAwesomeIcon icon={faAnglesRight} className="pl-2 pr-4  group-hover:translate-x-5 duration-300" />
                         </Button>
-                    </div>
+                    </Link>
                 </div>
                 <div className="right md:w-5/12">
                     <img src="" alt="" />
