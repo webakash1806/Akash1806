@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <main className="min-h-screen home border-2 h-fit flex md:flex-row flex-col-reverse lg:p-[11rem] md:p-[5rem] p-[0.7rem] lg:justify-around md:justify-between items-center dark:bg-darkBG ">
+            <main className="min-h-screen home border-2 h-fit flex md:flex-row flex-col-reverse lg:p-[11rem] md:p-[4rem] p-[0.7rem] lg:justify-between md:justify-between items-center dark:bg-darkBG ">
                 <div className="left flex flex-col items-left justify-center gap-1 dark:text-white md:w-7/12 lg:w-6/12">
                     <p className="text-[2.9rem] md:text-[3.5rem] font-bold">Hi! I am</p>
                     <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#AB35FD] to-[#DA18EE] text-[1.9rem] md:text-[2.2rem] font-bold"><Typewriter
@@ -32,11 +32,12 @@ const Home = () => {
                         </Button>
                     </Link>
                 </div>
-                <div className="right md:w-5/12 flex items-center justify-center relative">
-                    <div className="absolute w-[9rem] z-50"><img src={nodeImage} alt="" /></div>
-                    <div className="absolute top-3 w-[4rem] z-50"><img src={reactImage} alt="" /></div>
-                    <div className="absolute top-5 w-[4rem] h-[4rem] object-cover z-50"><img className="w-[4rem] h-[4rem] object-cover rounded-full" src={tailwindImage} alt="" /></div>
-                    <div className="absolute h-[20rem] w-[15rem]"><img src={mainImage} alt="" className="h-[20rem] w-[15rem] object-cover rounded-tl-2xl" /></div>
+                <div className=" right flex items-center justify-center relative md:mr-[7rem] lg:[6rem]">
+                    <div className="absolute animate-bounce w-[9rem] z-50 top-[4rem] right-12 md:top-[4rem] md:right-12"><img className="drop-shadow-[0px_0px_8px_#B42FFA]" src={nodeImage} alt="" /></div>
+                    <div className="absolute  bottom-16 right-[5.6rem] 
+                    md:bottom-16 md:right-[5.6rem] w-[4rem] z-50 "><img className="animate-spin duration-50 rounded-full shadow-[0px_0px_10px_#B42FFA]" src={reactImage} alt="" /></div>
+                    <div className="absolute  animate-bounce w-[4rem] h-[4rem] top-4 left-[5.6rem] md:top-4 md:left-[5.6rem] object-cover z-50"><img className="w-[4rem] h-[4rem] object-cover rounded-full shadow-[0px_0px_10px_#B42FFA]" src={tailwindImage} alt="" /></div>
+                    <div className="absolute  h-[20rem] w-[15rem]"><img src={mainImage} alt="" className="h-[20rem] w-[15rem] object-cover rounded-tl-2xl" /></div>
                 </div>
             </main>
         </div>
