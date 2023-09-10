@@ -37,7 +37,7 @@ const Home = () => {
                     <div className="absolute  bottom-16 right-[5.2rem] 
                     md:bottom-16 md:right-[5.6rem] w-[4rem] z-50 xl:bottom-24 xl:right-[6.7rem]"><img className="animate-spin duration-50 rounded-full shadow-[0px_0px_10px_#B42FFA]" src={reactImage} alt="" /></div>
                     <div className="absolute  animate-bounce w-[4rem] h-[4rem] top-4 left-[5.2rem] md:top-4 md:left-[5.6rem] xl:top-6 xl:left-[6.2rem] object-cover z-50"><img className="w-[4rem] h-[4rem] object-cover rounded-full shadow-[0px_0px_10px_#B42FFA]" src={tailwindImage} alt="" /></div>
-                    <div className="absolute  h-[18rem] w-[14.5rem] md:h-[20rem] md:w-[15rem] xl:h-[24rem] xl:w-[17rem]"><img src={mainImage} alt="" className="h-[18rem] w-[14.5rem] md:h-[20rem] md:w-[15rem] xl:h-[24rem] xl:w-[17rem] object-cover rounded-tl-2xl" /></div>
+                    <div className="absolute  h-[19rem] w-[14.5rem] md:h-[20rem] md:w-[15rem] xl:h-[24rem] xl:w-[17rem]"><img src={mainImage} alt="" className="h-[19rem] w-[14.5rem] md:h-[20rem] md:w-[15rem] xl:h-[24rem] xl:w-[17rem] object-cover rounded-tl-2xl" /></div>
                 </div>
             </main>
         </div>
