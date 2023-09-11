@@ -3,7 +3,7 @@ import SocialLink from './SocialLink'
 const About = () => {
     return (
 
-        <section className='flex flex-col'>
+        <section id='about' className='flex flex-col'>
             about Us
             <div className='flex flex-col md:flex-row items-center justify-between lg:px-[6rem]'>
                 <div className="left">

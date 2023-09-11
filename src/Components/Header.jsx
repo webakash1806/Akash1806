@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { HashLink } from 'react-router-hash-link';
 import DarkModeToggle from '../Hooks/DarkModeToggle'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faXmark, faArrowRight } from "@fortawesome/free-solid-svg-icons"
@@ -21,8 +22,8 @@ const Header = () => {
                 LOGO
             </div>
             <nav className={`bg-white duration-[0.3s] shadow-md shadow-text2 gap-6 w-[13rem] text-[1.1rem] p-[1.5rem] pr-[2rem] pb-[3rem] rounded-b-md dark:bg-darkBG lg:bg-transparent absolute flex flex-col lg:flex-row lg:p-0 tracking-wider lg:gap-10 lg:w-fit lg:text-[1.2rem] font-[500] lg:static lg:shadow-none ${isActive ? "top-[3.2rem] left-[-14rem]" : "top-[3.2rem] left-0"}`}>
-                <Link className=" hover:text-shadowBG flex border-b-[1px] lg:border-b-0 items-center justify-between dark:hover:text-white duration-[0.2s] px-2" to="/Akash1806">Home <FontAwesomeIcon className="lg:hidden text-[0.9rem]" icon={faArrowRight} /></Link>
-                <Link className=" hover:text-shadowBG flex border-b-[1px] lg:border-b-0 items-center justify-between dark:hover:text-white duration-[0.2s] px-2" to="/Akash1806/about">About <FontAwesomeIcon className="lg:hidden text-[0.9rem]" icon={faArrowRight} /></Link>
+                <HashLink className=" hover:text-shadowBG flex border-b-[1px] lg:border-b-0 items-center justify-between dark:hover:text-white duration-[0.2s] px-2" to="/Akash1806#home">Home <FontAwesomeIcon className="lg:hidden text-[0.9rem]" icon={faArrowRight} /></HashLink>
+                <HashLink className=" hover:text-shadowBG flex border-b-[1px] lg:border-b-0 items-center justify-between dark:hover:text-white duration-[0.2s] px-2" to="#about">About <FontAwesomeIcon className="lg:hidden text-[0.9rem]" icon={faArrowRight} /></HashLink>
                 <Link className=" hover:text-shadowBG flex border-b-[1px] lg:border-b-0 items-center justify-between dark:hover:text-white duration-[0.2s] px-2" to="/Akash1806/contact">Contact <FontAwesomeIcon className="lg:hidden text-[0.9rem]" icon={faArrowRight} /></Link>
                 <Link className=" hover:text-shadowBG flex border-b-[1px] lg:border-b-0 items-center justify-between dark:hover:text-white duration-[0.2s] px-2" to="/Akash1806/project">Skills <FontAwesomeIcon className="lg:hidden text-[0.9rem]" icon={faArrowRight} /></Link>
                 <Link className=" hover:text-shadowBG flex border-b-[1px] lg:border-b-0 items-center justify-between dark:hover:text-white duration-[0.2s] px-2" to="/Akash1806/skills">Project <FontAwesomeIcon className="lg:hidden text-[0.9rem]" icon={faArrowRight} /></Link>
