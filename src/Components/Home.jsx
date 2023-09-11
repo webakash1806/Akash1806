@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <main className="h-[40rem] home flex md:flex-row flex-col-reverse lg:p-[11rem] md:p-[4rem] sm:px-[6rem] p-[0.7rem] lg:justify-between md:justify-between items-center dark:bg-darkBG ">
+            <main className="duration-[0.3s] h-[40rem] home flex md:flex-row flex-col-reverse lg:p-[11rem] md:p-[4rem] sm:px-[6rem] p-[0.7rem] lg:justify-between md:justify-between items-center dark:bg-darkBG ">
                 <div className="left flex sm:pt-6 pt-4 flex-col items-left justify-center  dark:text-white md:w-7/12 lg:w-6/12">
                     <p className="text-[2.9rem] md:text-[3.5rem] font-bold">Hi! I am</p>
                     <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#AB35FD] to-[#DA18EE] text-[1.9rem] md:text-[2.2rem] font-bold"><Typewriter
