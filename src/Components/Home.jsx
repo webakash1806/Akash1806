@@ -1,5 +1,7 @@
 import Header from "./Header"
 import Button from "./Button"
+import About from "./About"
+
 import mainImage from "../assets/1686585000576 (1).jpg"
 import nodeImage from "../assets/4547668-middle-removebg-preview.png"
 import reactImage from "../assets/logo-react-icon.png"
@@ -47,6 +49,7 @@ const Home = () => {
                     </div>
                 </div>
             </main>
+            <About />
         </div>
     )
 }
