@@ -1,4 +1,5 @@
 import aboutImg from '../assets/code-snapshot.png'
+import SocialLink from './SocialLink'
 const About = () => {
     return (
 
@@ -13,6 +14,7 @@ const About = () => {
                     {/* <p>I'm excited to embark on a web development journey with you. Whether you have a project in mind or want to discuss how I can help improve your online presence, feel free to reach out. Together, we can create a digital masterpiece that leaves a lasting impression.</p> */}
                 </div>
             </div>
+            <SocialLink />
         </section>
     )
 }
